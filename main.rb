@@ -1,28 +1,4 @@
-﻿=begin
-
-
- 5 > 3     // true
- 5 < 3     // false
- 5 <= 5    // true
- 5 >= 3    // true
-
- 5 == 5    // true
- 5 == '5'  // true   !!!
- 5 === '5' // false  !!!
-
- 5 > '3'     // true
- 5 < '3'     // false
- 5 <= '5'    // true
- 5 >= '3'    // true
-
- 5 != 5      // false
- 5 == 5      // true
- 5 != '5'    // false  !!!
- 5 !== '5'   // true   !!!
- 
-                          
-=end
-
+﻿
  5 > 3     # true
  5 < 3     # false
  5 <= 5    # true
@@ -77,9 +53,12 @@
 
   a = :Hello
   b = :Hello
+  c = :'Hello Ruby!!!'
+  d = :'Hello Ruby!!!'
 
   a.equal? b   #true
-  
+  c.equal? b   #true
+
 
 
 
